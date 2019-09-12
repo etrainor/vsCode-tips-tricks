@@ -1,0 +1,107 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+* {
+  box-sizing: border-box;
+  /* border: 2px dashed red; */
+}
+body {
+  background-color: #040404;
+  width: 100%;
+  height: 100vh;
+}
+header {
+  background-color: #040404;
+  color: #E1BD2F;
+  width: 100%;
+  padding: 2rem;
+  margin: auto;
+  box-shadow: 0px 4px 21px 0px #C64B85;
+  border-bottom: 2px solid #C64B85;
+}
+
+header > h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 5rem;
+  text-align: center;
+  width: 100%;
+}
+
+header > h4 {
+  text-align: center;
+  color: #33BBF1;
+  padding: 2rem 0 0 0;
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  /* height: 80vh; */
+  width: 100%;
+}
+
+main > div {
+  width: 30%;
+  margin: auto;
+  background-color: #040404;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+img {
+  width: 100%;
+  border: 2px solid #E1BD2F;
+}
+
+main > div > h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: #E1BD2F;
+}
+
+main > div:nth-of-type(2) {
+  width: 100%;
+  margin-top: 0;
+}
+
+main > div:nth-of-type(2) > ol, main > div:nth-of-type(2) > h4 {
+  width: 70%;
+  margin: auto;
+}
+
+main > div:nth-of-type(2) > h4 {
+  font-family: 'Roboto Mono', monospace;
+  padding: .5rem;
+  color: #33BBF1;
+  border-bottom: 2px solid #E1BD2F;
+  text-align: center;
+  font-size: 3rem;
+}
+
+main > div:nth-of-type(2) > div {
+  padding: 2rem;
+  width: 60%;
+  margin: auto;
+}
+
+main > div:nth-of-type(2) > div > ol{
+  list-style-image: url('/images/starfish_icon.png');
+} 
+
+main > div:nth-of-type(2) > div > ol > li {
+  color: #E1BD2F;
+  padding: .5rem 0 .5rem 1rem;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  color:#E1BD2F;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  padding: 2rem 0;
+  box-shadow: 0px -4px 21px 0px #C64B85;
+  border-top: 2px solid #C64B85;
+  width: 100%;
+}
