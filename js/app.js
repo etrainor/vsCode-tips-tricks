@@ -1,16 +1,12 @@
-"use strict";
+'use strict';
 
 //=================================================================================
 
 // Split Screens
-// Sometimes it is useful to see two files side by side simultaneously.
-// Especially when working on HTML/CSS
 
 //=================================================================================
 
 // Move Code Up or Down without copy/paste
-// Frequently you will find that you either want to (or need to) reorder portions of your code.
-// You can do this without having to cut, copy, paste, or re-type!
 
 // var sum = numberOne + numberTwo;
 
@@ -32,10 +28,80 @@
 
 //=================================================================================
 
-// How to know if your eslint is not working
+// How to know if your eslint is not working, fix the easy problems and identify the problems that are not autofixable.
 
-var monkeys = "cute brown furry animals";
-var monkeyFood = bananas
-if(monkeyFood = 'bananas'){
-      console.log('monkeys eat: ',  monkeyFood)
-} 
+//The following code should have a variety of different angry looking squiggles.
+
+// var monkeys = "cute brown furry animals"
+// var monkeyFood = bananas
+// if(monkeyFood = 'bananas'){
+//       console.log('monkeys eat: ',  monkeyFood)
+// }
+
+// Sometimes you will also need to change your default indent spacing in the settings.
+
+//=================================================================================
+
+// Change Your Color Theme
+
+//=================================================================================
+
+// Commenting syntax varies by file type.
+// .js files use //
+// .html and .md files use <!-- -->
+// .css files use /* */
+
+// var codeToCommentOut = 'Legos are the most amazing invention EVER!';
+
+// console.log(codeToCommentOut);
+
+//=================================================================================
+
+// The Rainbow Brackets VS Code Extension will make debugging (slightly) easier
+
+// function soManyBrackets() {
+//   for(var i = 0 ; i < 8 ; i++) {
+
+//     for(var j = 0 ; j < 2 ; j++) {
+
+//       for(var k = 0 ; k < 5 ; k++) {
+//         console.log('I love rainbow brackets!');
+
+//       }
+//     }
+//   }
+// }
+
+// console.log(soManyBrackets);
+
+//=================================================================================
+
+// Change all identical words (or variables) at the same time
+
+// var myDog = 'Dexter';
+// var message = 'My dog is named ' + myDog + '.' + myDog + '\'s favorite treats are apples and popcorn';
+
+// console.log(message);
+
+// You can also use CTRL + F (PC) or Command + F to open the "find" menu
+
+//=================================================================================
+
+// To Do Lists using Todo Tree VS Code Extension
+
+//=================================================================================
+
+// Using the 'Tab' key to auto complete is your best friend
+
+// var reallyLongVariableName = 'thing';
+// console.log();
+
+// function thingOne() {console.log('1')};
+// function thingTwo() {console.log('2')};
+// function thingThree() {console.log('3')};
+
+//=================================================================================
+
+// Let VS Code guide your relative file paths
+
+// See index.html
