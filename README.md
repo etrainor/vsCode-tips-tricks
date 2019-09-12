@@ -1,7 +1,6 @@
 # VS Code Tips and Tricks
 Since starting code 201 at Code Fellows, I have discovered many time saving and useful tools for VS Code.
 
-## List of Tricks
 ### Split Screens
 Sometimes it is useful to see two files side by side simultaneously.
 
