@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 //=================================================================================
 
@@ -9,11 +9,10 @@
 // Move Code Up or Down without copy/paste
 
 // var sum = numberOne + numberTwo;
-
-// console.log('The sum of numberOne and numberTwo is: ', sum);
-
 // var numberOne = 1;
 // var numberTwo = 2;
+
+// console.log('The sum of numberOne and numberTwo is: ', sum);
 
 //=================================================================================
 
@@ -32,10 +31,10 @@
 
 //The following code should have a variety of different angry looking squiggles.
 
-// var monkeys = "cute brown furry animals"
-// var monkeyFood = bananas
-// if(monkeyFood = 'bananas'){
-//       console.log('monkeys eat: ',  monkeyFood)
+// var monkeys = 'cute brown furry animals';
+// var monkeyFood = 'bananas';
+// if(monkeyFood === 'bananas'){
+//   console.log('monkeys eat: ', monkeyFood, monkeys);
 // }
 
 // Sometimes you will also need to change your default indent spacing in the settings.
@@ -78,16 +77,24 @@
 
 // Change all identical words (or variables) at the same time
 
-// var myDog = 'Dexter';
-// var message = 'My dog is named ' + myDog + '.' + myDog + '\'s favorite treats are apples and popcorn';
+var dogName = "Dexter";
+var message =
+  "My dog is named " +
+  dogName +
+  "." +
+  dogName +
+  "'s favorite treats are apples and popcorn";
 
-// console.log(message);
+console.log(message);
 
 // You can also use CTRL + F (PC) or Command + F to open the "find" menu
 
 //=================================================================================
 
 // To Do Lists using Todo Tree VS Code Extension
+
+// TODO: Wash the dishes
+// TODO: Walk the dog
 
 //=================================================================================
 
