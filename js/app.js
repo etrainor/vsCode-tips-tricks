@@ -76,19 +76,20 @@
 
 //=================================================================================
 // Uncaught Syntax Error: Unexpected End of Input
-function syntaxError (num1, num2) {
-  let sum = num1 + num2;
-  let OddOrEven;
-  
-  if(sum % 2 === 0){
-    OddOrEven = even;
-  } else {
-    OddOrEven = false;
-  }
-  console.log(`The sum of ${num1} and ${num2} is ${OddOrEven}`);
-  console.log('I was missing a closing curly backet');
+// function syntaxError (num1, num2) {
+//   let sum = num1 + num2;
+//   let OddOrEven;
 
-syntaxError(2,5);
+//   if(sum % 2 === 0){
+//     OddOrEven = even;
+//   } else {
+//     OddOrEven = false;
+//   }
+//   console.log(`The sum of ${num1} and ${num2} is ${OddOrEven}`);
+//   console.log('I was missing a closing curly backet');
+
+// syntaxError(2,5);
+
 //=================================================================================
 
 // Change all identical words (or variables) at the same time
@@ -120,3 +121,4 @@ syntaxError(2,5);
 // Let VS Code guide your relative file paths
 
 // See index.html
+
