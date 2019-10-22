@@ -1,0 +1,22 @@
+{
+  "vsCode":["Split Screens",
+    "Move Code Up/Down without copy/paste",
+    "Autosave",
+    "Word Wrap",
+    "What a broken eslint looks like",
+    "Eslint - Fix All Auto Fixable Problems",
+    "VS Code Color Themes",
+    "Easy Comment/Un-Comment",
+    "Rainbow Brackets",
+    "Uncaught Syntax Error: Unexpected End of Input",
+    "Select all like variables",
+    "Find and Replace",
+    "TODO: Lists",
+    "Tab is your friend!",
+    "Auto Completing File Paths"],
+  "terminal": {
+    "commands": [],
+    "pretty": []
+  },
+  "devTools": []
+}
