@@ -23,6 +23,8 @@
 //=================================================================================
 
 // Word Wrap
+// - MAC = Option + Z
+// - PC = ALT + Z
 
 // var reallyLongText = 'Cupcake ipsum dolor. Sit amet biscuit chocolate bar icing cake muffin cookie bear claw. Lemon drops marzipan brownie sesame snaps. Powder pudding toffee chocolate bar cheesecake gummies. Carrot cake pudding donut apple pie sugar plum caramels gummi bears dragée. Wafer tart danish jelly beans lollipop wafer pastry soufflé topping. Tiramisu bear claw icing cake dragée. Sweet bonbon topping oat cake liquorice cake sugar plum carrot cake carrot cake. Pie jujubes gummi bears cupcake. Icing chocolate cake powder. Candy dessert donut toffee chocolate bar biscuit. Marshmallow candy canes cotton candy. Pudding liquorice sugar plum caramels brownie cotton candy carrot cake chocolate cake dragée.';
 
@@ -75,20 +77,34 @@
 // console.log(soManyBrackets);
 
 //=================================================================================
-// Uncaught Syntax Error: Unexpected End of Input
-function syntaxError (num1, num2) {
-  let sum = num1 + num2;
-  let OddOrEven;
-  
-  if(sum % 2 === 0){
-    OddOrEven = even;
-  } else {
-    OddOrEven = false;
-  }
-  console.log(`The sum of ${num1} and ${num2} is ${OddOrEven}`);
-  console.log('I was missing a closing curly backet');
+// GitLens Extension provides visibility into the repos commit and branching history... You can also see who edited a specific line of code.
 
-syntaxError(2,5);
+//=================================================================================
+// Color Highlight makes it easier to find chosen color in css files.
+
+//=================================================================================
+// Code Spell Checker
+//Who doesnot like spelll checkk?
+
+//=================================================================================
+// Markdown Preview Enhanced
+// View your .md files as they would appear on git, live time.
+
+//=================================================================================
+// Uncaught Syntax Error: Unexpected End of Input
+// function syntaxError (num1, num2) {
+//   let sum = num1 + num2;
+//   let OddOrEven;
+
+//   if(sum % 2 === 0){
+//     OddOrEven = even;
+//   } else {
+//     OddOrEven = false;
+//   }
+//   console.log(`The sum of ${num1} and ${num2} is ${OddOrEven}`);
+//   console.log('I was missing a closing curly backet');
+
+// syntaxError(2,5);
 //=================================================================================
 
 // Change all identical words (or variables) at the same time
@@ -120,3 +136,4 @@ syntaxError(2,5);
 // Let VS Code guide your relative file paths
 
 // See index.html
+
