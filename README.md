@@ -14,4 +14,4 @@ Act as a platform to demonstrate coding tips and tricks for Visual Studio Code, 
 ### Links to Topic Specific Readme Documents
 - [Visual Studio Code Demo Readme](./docs/VS_CODE.md)
 - [Terminal Demo Readme](./docs/TERMINAL.md)
-- [Chrome Dev Tools Readme](./docs/VS_CODE.md)
+<!-- - [Chrome Dev Tools Readme](./docs/VS_CODE.md) -->

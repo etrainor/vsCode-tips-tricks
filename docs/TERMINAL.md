@@ -24,15 +24,15 @@ If you have a process that will take a long time and you don't want to sit and w
 
 **Terminal Command:** cd -
 
-### Git Rebase
+<!-- ### Git Rebase
 Have you ever seen the message when you add, commit, push that `your branch is x number of commits behind master?`. This is a good time to perform a git rebase [branch name]. This changes the base of your branch to the most recent commit on the base branch helping you maintain a clean commit history.
-<!-- Reference https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase -->
+Reference https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
 ![Example of a git rebase](https://wac-cdn.atlassian.com/dam/jcr:e4a40899-636b-4988-9774-eaa8a440575b/02.svg?cdnVersion=643)
 
 **Terminal Command:** git rebase [branch name]
 
-<!-- https://www.atlassian.com/git/glossary -->
-You can also add a -i flag to the rebase command. The -i flag is used to begin an interactive rebasing session. This provides all the benefits of a normal rebase, but gives you the opportunity to add, edit, or delete commits along the way.
+https://www.atlassian.com/git/glossary
+You can also add a -i flag to the rebase command. The -i flag is used to begin an interactive rebasing session. This provides all the benefits of a normal rebase, but gives you the opportunity to add, edit, or delete commits along the way. -->
 
 ### Read the contents of a file in the terminal
 Typing `cat` in from of a file name will print the contents of the file in the terminal
