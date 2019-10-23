@@ -5,6 +5,7 @@ function getData() {
     data.vsCode.forEach(item => {
       $('#vs-code-list').append(`<li>${item}</li>`);
     });
+    // console.table(data.vsCode);
   });
 }
 

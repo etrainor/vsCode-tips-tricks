@@ -1,5 +1,8 @@
 # Terminal Tips and Tricks
 
+### Tab to Auto Complete 
+Just like in vs code you can tab to auto complete file names (to prevent spelling mistakes) and sometimes with branches (depending on your computer and settings).
+
 ### Change the color theme
 Terminal > Preferences. You will see a list of available color themes (or you can create your own).
 
@@ -44,11 +47,11 @@ First command: add .
 (missing the git)
 Second command git !!
 
-`terminal will run git add .`
+terminal will run `git add .`
 
 ### Make nested directories in one terminal command.
 
-**Terminal Command:** mdir -p [existing directory]/new/new
+**Terminal Command:** mkdir -p [existing directory]/new/new
 
 ### Git Log
 Want to see a log of your recent commits for the current branch? You can use `git log` to see the author, message and date for recent commits.
