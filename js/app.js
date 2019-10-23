@@ -105,6 +105,7 @@
 //   console.log('I was missing a closing curly backet');
 
 // syntaxError(2,5);
+
 //=================================================================================
 
 // Change all identical words (or variables) at the same time
