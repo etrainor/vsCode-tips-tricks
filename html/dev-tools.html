@@ -29,20 +29,40 @@
   </nav>
   <main>
 
-    <div id="home-img-container">
+    <div id="home-img-container" ">
+
       <img src="https://media.giphy.com/media/miDj7E2dkGYSI/giphy.gif">
     </div>
-<!-- SameSite=None -->
+    <button id="click-me">Click Me!</button>
+    <section id="show-me">
+      <p>You must click the button to see me</p>
+      <p>The button changes colors on hover</p>
+    </section>
+    <!-- SameSite=None -->
+    
+    <!-- <div id="some-div">
+        <p>
+          HOVER OVER ME
+        </p>
+        
+        <span id="some-element">
+            <p id="color">I can use the dev tools to set the active state of an element so this can be seen</p>
+            <p>It lets me see if the changes I am trying to make are occurring</p>
+        </span>
+      </div>
+       -->
     <div id="resources">
+      <h4>Dev Tools Tricks</h4>
       <ul>
-        <!-- TODO: Add hrefs to a tags in the list -->
-        <li><a href="https://github.com/etrainor/vsCode-tips-tricks/blob/master/README.md">Demo Project GitHub Repository</a></li>
-        <li><a href="https://jonas.github.io/tig/INSTALL.html">Installation instructions for tig terminal tool</a></li>
-        <li><a href="https://giphy.com/">Giphy Resources</a></li>
-        <li><a href="https://www.freecodecamp.org/news/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22/">Terminal Appearance Customization Resources</a></li>
-        <li><a>VS Code TODO Tree Extension</a></li>
-        <li><a>VS Code Rainbow Brackets Extension</a></li>
-        <li><a>VS Code Night Owl Color Theme</a></li>
+        <li>Dev Tools Can Have a Dark Mode Too!</li>
+        <li>Drag and Drop Elements Dynamically</li>
+        <li>Use the Network Tab: How is Your App Interacting With Outside Resources?</li>
+        <li>Inspect Page Elements</li>
+        <li>Test CSS</li>
+        <li>Find Out Where Code Needs to Be Changed</li>
+        <li>Simulate User Actions to Test CSS</li>
+        <li>Move the dev tools around</li>
+        <li>See more organized console.logs with console.table</li>
       </ul>
 
     </div>
@@ -50,6 +70,8 @@
   </main>
   <footer> Copyright Erin Trainor 2019</footer>
 
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="../js/app.js"></script>
+  <script src="../js/click.js"></script>
 </body>
 </html>
