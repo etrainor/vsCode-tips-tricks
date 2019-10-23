@@ -16,6 +16,8 @@ Sometimes terminal commands may not serve a practical purpose... they are just f
 ### The terminal can talk back to you.
 If you have a process that will take a long time and you don't want to sit and watch the progress bar, you can add a `say done` after your terminal command. 
 
+Note: `say` is MAC only. There is an equivalent to say for Ubuntu called `espeak`. [Click Here](https://itsfoss.com/espeak-text-speech-linux/) for Installation Instructions.
+
 **Terminal Command:** git status ; say here is your git status
 
 ### Hyphens let you go back to wherever you were previously.
