@@ -117,6 +117,7 @@ main > div:nth-of-type(2) > div > ol {
 main > div:nth-of-type(2) > ul {
   margin: auto;
   width: 70%;
+  padding-left: 3rem;
 }
 
 main > div:nth-of-type(2) > div > ol > li {
@@ -129,14 +130,27 @@ main > div:nth-of-type(2) > div > ol > li {
 main > div:nth-of-type(2) > ul > li {
   font-size: 2rem;
   font-family: 'Roboto', sans-serif;
-  padding-bottom: 2rem;
-  text-align: center;
+  padding: 0 0 2rem 2rem;
+  text-align: start;
+  list-style-image: url('/images/starfish_icon.png');
   color: #E1BD2F;
+}
+
+
+main > div:nth-of-type(2) > ul > li > ul > li {
+  padding-top: 2rem;
+  list-style-image: url('/images/robot-icon.png');
+  padding-left: 2rem;
+}
+
+main > div:nth-of-type(2) > ul > li > ul > li > a {
+  color:#C64B85;
 }
 
 main > div:nth-of-type(2) > ul > li:nth-of-type(1) {
   padding-top: 2rem;
 }
+
 main > div:nth-of-type(2) > p {
   color: #C64B85;
   width: 80%;
