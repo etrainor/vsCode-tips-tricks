@@ -10,12 +10,12 @@
 
 // var sum = numberOne + numberTwo;
 
-// console.log('The sum of numberOne and numberTwo is: ', sum);
-
 // var numberOne = 1;
 // var numberTwo = 2;
 
-//=================================================================================
+// console.log('The sum of numberOne and numberTwo is: ', sum);
+
+// // =================================================================================
 
 // Configure Autosave
 // If you want your files to save automatically when you navigate away from VS Code, you can change the autosave settings.
@@ -26,7 +26,8 @@
 // - MAC = Option + Z
 // - PC = ALT + Z
 
-// var reallyLongText = 'Cupcake ipsum dolor. Sit amet biscuit chocolate bar icing cake muffin cookie bear claw. Lemon drops marzipan brownie sesame snaps. Powder pudding toffee chocolate bar cheesecake gummies. Carrot cake pudding donut apple pie sugar plum caramels gummi bears dragée. Wafer tart danish jelly beans lollipop wafer pastry soufflé topping. Tiramisu bear claw icing cake dragée. Sweet bonbon topping oat cake liquorice cake sugar plum carrot cake carrot cake. Pie jujubes gummi bears cupcake. Icing chocolate cake powder. Candy dessert donut toffee chocolate bar biscuit. Marshmallow candy canes cotton candy. Pudding liquorice sugar plum caramels brownie cotton candy carrot cake chocolate cake dragée.';
+var reallyLongText =
+  'Cupcake ipsum dolor. Sit amet biscuit chocolate bar icing cake muffin cookie bear claw. Lemon drops marzipan brownie sesame snaps. Powder pudding toffee chocolate bar cheesecake gummies. Carrot cake pudding donut apple pie sugar plum caramels gummi bears dragée. Wafer tart danish jelly beans lollipop wafer pastry soufflé topping. Tiramisu bear claw icing cake dragée. Sweet bonbon topping oat cake liquorice cake sugar plum carrot cake carrot cake. Pie jujubes gummi bears cupcake. Icing chocolate cake powder. Candy dessert donut toffee chocolate bar biscuit. Marshmallow candy canes cotton candy. Pudding liquorice sugar plum caramels brownie cotton candy carrot cake chocolate cake dragée.';
 
 //=================================================================================
 
@@ -34,11 +35,11 @@
 
 //The following code should have a variety of different angry looking squiggles.
 
-// var monkeys = "cute brown furry animals"
-// var monkeyFood = bananas
-// if(monkeyFood = 'bananas'){
-//       console.log('monkeys eat: ',  monkeyFood)
-// }
+var monkeys = 'cute brown furry animals';
+var monkeyFood = bananas;
+if ((monkeyFood = 'bananas')) {
+  console.log('monkeys eat: ', monkeyFood);
+}
 
 // Sometimes you will also need to change your default indent spacing in the settings.
 
@@ -92,15 +93,16 @@
 
 //=================================================================================
 // Uncaught Syntax Error: Unexpected End of Input
-// function syntaxError (num1, num2) {
-//   let sum = num1 + num2;
-//   let OddOrEven;
+function syntaxError(num1, num2) {
+  let sum = num1 + num2;
+  let OddOrEven;
 
-//   if(sum % 2 === 0){
-//     OddOrEven = even;
-//   } else {
-//     OddOrEven = false;
-//   }
+  if (sum % 2 === 0) {
+    OddOrEven = even;
+  } else {
+    OddOrEven = false;
+  }
+}
 //   console.log(`The sum of ${num1} and ${num2} is ${OddOrEven}`);
 //   console.log('I was missing a closing curly backet');
 
@@ -110,8 +112,13 @@
 
 // Change all identical words (or variables) at the same time
 
-// var myDog = 'Dexter';
-// var message = 'My dog is named ' + myDog + '.' + myDog + '\'s favorite treats are apples and popcorn';
+var myDog = 'Dexter';
+var message =
+  'My dog is named ' +
+  myDog +
+  '.' +
+  myDog +
+  "'s favorite treats are apples and popcorn";
 
 // console.log(message);
 
@@ -137,4 +144,3 @@
 // Let VS Code guide your relative file paths
 
 // See index.html
-
