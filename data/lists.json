@@ -7,13 +7,13 @@
     "Eslint - Fix All Auto Fixable Problems",
     "VS Code Color Themes",
     "Easy Comment/Un-Comment",
-    "Rainbow Brackets", "GitLens", "Color Highlight", "Code Spell Checker", "Markdown Preview Enhanced",
+    "Rainbow Brackets", "Color Highlight", "Code Spell Checker", "Markdown Preview Enhanced",
     "Uncaught Syntax Error: Unexpected End of Input",
     "Select all like variables",
     "Find and Replace",
     "TODO: Lists",
     "Tab is your friend!",
-    "Auto Completing File Paths"],
+    "Auto Completing File Paths", "Selecting Specific Lines By Choosing Line Numbers"],
   "terminal": {
     "commands": [],
     "pretty": []

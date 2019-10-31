@@ -3,48 +3,48 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Tips and Tricks - Home</title>
+  <title>Tips and Tricks - VS Code</title>
   <link rel='icon' href='./images/favicon-32x32.png' type='image/x-icon'/ >
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="./styles/reset.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="./styles/style.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles/app/reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles/app/style.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles/demo.css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
   <!-- TODO: Add a Favicon Icon -->
 </head>
 <body>
   <header>
     
-    <h1>Tips and Tricks</h1>
-    <h4>Visual Studio Code ~ Terminal Navigation ~ Chrome Developer Tools</h4>
+    <h1>Visual Studio Code</h1>
+    <h4>All the things I wish I had known about VS Code earlier</h4>
     
   </header>
   <nav>
     <ul>
-      <li><a href=".index.html">Home</a></li>
-      <li><a href="./html/vs-code.html">VS Code</a></li>
-      <li><a href="./html/terminal.html">Terminal</a></li>
-      <li><a href="./html/dev-tools.html">Chrome Developer Tools</a></li>
+      <li><a href="./index.html">Home</a></li>
       <li><a href="./html/resources.html">Resources</a></li>
     </ul>
   </nav>
   <main>
 
-    <div id="home-img-container">
-      <img SameSite=None src="https://media.giphy.com/media/l0Iy88cWKqBeBN92o/giphy.gif">
+    <div>
+      <img SameSite=None src="./images/excited.gif">
+      <!-- <h3>Mind Blown!!!!</h3> -->
     </div>
 
     <div>
-      <h4>Work Smarter Not Harder</h4>
-
-      <p>Coding is difficult enough without wasting time navigating through your file structure, or trying to figure out the css property that is breaking the appearance of your home page.</p>
-
-      <p>Learn how to use chrome dev tools effectively to understand how the browser is interpreting your code, VS code tricks that will help prevent time-wasting bugs, and terminal shortcuts that let you bounce around your file system like a pro.</p>
-
+      <h4>List of Amazing Things</h4>
+      <div>
+        <ol id="vs-code-list">
+        </ol>
+      </div>
     </div>
 
   </main>
   <footer> Copyright Erin Trainor 2019</footer>
-
-  <script src="./js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="./js/demo.js"></script>
+  <script src="./js/app/getData.js"></script>
+  
 </body>
 </html>

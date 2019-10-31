@@ -22,7 +22,11 @@ nav {
 nav > ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+nav > ul > li {
+  padding: 0 30px;
 }
 
 a {
@@ -112,7 +116,7 @@ main > div:nth-of-type(2) > div {
 }
 
 main > div:nth-of-type(2) > div > ol {
-  list-style-image: url('../images/starfish_icon.png');
+  list-style-image: url('../../images/app/starfish_icon.png');
 } 
 main > div:nth-of-type(2) > ul {
   margin: auto;
@@ -132,13 +136,13 @@ main > div:nth-of-type(2) > ul > li {
   font-family: 'Roboto', sans-serif;
   padding: 0 0 2rem 2rem;
   text-align: start;
-  list-style-image: url('../images/starfish_icon.png');
+  list-style-image: url('../../images/app/starfish_icon.png');
   color: #E1BD2F;
 }
 
 main > div:nth-of-type(2) > ul > li > ul > li {
   padding-top: 2rem;
-  list-style-image: url('../images/robot-icon.png');
+  list-style-image: url('../../images/app/robot-icon.png');
   padding-left: 2rem;
 }
 
