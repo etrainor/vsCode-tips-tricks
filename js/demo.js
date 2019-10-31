@@ -1,6 +1,7 @@
 'use strict';
 
 // VS Code Tips and Tricks
+
 // Since starting code 201 at Code Fellows, I have discovered many time saving and useful tools for VS Code.
 
 //=====================================================================//
@@ -23,6 +24,14 @@
 // TODO: Add a comment with the css selector that your used.
 
 // TODO: Click the 'x' on the tab to close the file in the second window || click the ... and select 'close all'
+
+//=====================================================================//
+//==========SELECTING MULTIPLE LINES WITH CLICK AND DRAG===============//
+//=====================================================================//
+
+// You can select single lines or multiple lines by clicking on a line number or clicking and dragging down multiple line numbers.
+
+//TODO: Try it!
 
 ///=====================================================================//
 //========================COMMENTING CODE IN/OUT=======================//
@@ -299,7 +308,15 @@
 
 // TODO: In the empty console.log between the ++++++++++++++ add a string that says why we received the error.
 
-// ### To Do Lists using Todo Tree VS Code Extension
+//=====================================================================//
+//=====================USEFUL VS CODE EXTENSIONS=======================//
+//=====================================================================//
+
+//NOTE: Links to all of the following extensions can be found on the resources page or by searching for the extension name in the extensions marketplace (icon made of 4 little boxes on the left edge of your VS Code);
+
+//---------------------------------------------------------------------//
+//--------------------To Do Lists using TODO TREE----------------------//
+//---------------------------------------------------------------------//
 
 // Before starting a project it is useful to create a list of ToDos to keep yourself on track.
 
@@ -310,64 +327,78 @@
 // TODO: Make a list of tasks
 // FIXME: Add FixMes for in progress tasks that have bugs
 
+//---------------------------------------------------------------------//
+//---------Markdown Preview using Markdown Preview Enhanced------------//
+//---------------------------------------------------------------------//
+
 // #### Want to learn more about writing in markdown (.md files)??
-// This is one of my favorite guides:
+// Here is a link to a useful guide:
 
 // https://www.markdownguide.org/basic-syntax/
 
-// // The Rainbow Brackets VS Code Extension will make debugging (slightly) easier
+// The Markdown Preview Enhanced extension lets you split your VS code screens and see how your markdown will look in the browser (if you download the extension you can test it by looking at the README.md and clicking the icon in the upper right corner that looks like a split screen with a magnifying glass).
 
-// // function soManyBrackets() {
-// //   for(var i = 0 ; i < 8 ; i++) {
+//---------------------------------------------------------------------//
+//-------See Selected CSS Colors More Easily with Color Highlight------//
+//---------------------------------------------------------------------//
 
-// //     for(var j = 0 ; j < 2 ; j++) {
+// Install the extension and look at ./styles/app/style.css to see this extension at work.
 
-// //       for(var k = 0 ; k < 5 ; k++) {
-// //         console.log('I love rainbow brackets!');
+//---------------------------------------------------------------------//
+//------------------------Rainbow Brackets-----------------------------//
+//---------------------------------------------------------------------//
 
-// //       }
-// //     }
-// //   }
-// // }
+// The Rainbow Brackets VS Code Extension will make debugging (slightly) easier
 
-// // console.log(soManyBrackets);
+// After installing the extension uncomment the code between the 🌈 to see it working.
+// Rainbow brackets changes the colors of bracket pairs to be different colors so you can more easily see where your code blocks start and stop.
 
-// //=================================================================================
-// // GitLens Extension provides visibility into the repos commit and branching history... You can also see who edited a specific line of code.
+// 🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
 
-// //=================================================================================
-// // Color Highlight makes it easier to find chosen color in css files.
+// function soManyBrackets() {
+//   for(var i = 0 ; i < 8 ; i++) {
 
-// //=================================================================================
-// // Code Spell Checker
-// //Who doesnot like spelll checkk?
+//     for(var j = 0 ; j < 2 ; j++) {
 
-// //=================================================================================
-// // Markdown Preview Enhanced
-// // View your .md files as they would appear on git, live time.
+//       for(var k = 0 ; k < 5 ; k++) {
+//         console.log('I love rainbow brackets!');
 
-// //=================================================================================
+//       }
+//     }
+//   }
+// }
 
-// //=================================================================================
+// console.log(soManyBrackets);
 
-// //=================================================================================
+//🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
 
-// // To Do Lists using Todo Tree VS Code Extension
+//---------------------------------------------------------------------//
+//------------------------Code Spell Checker---------------------------//
+//---------------------------------------------------------------------//
 
-// //=================================================================================
+// Is spelling not one of your best skills? Code Spell Checker can help with that.
+// Once installed misspelled words will be underlined with squiggles.
 
-// // Using the 'Tab' key to auto complete is your best friend
+//Who doesnot like spelll checkk?
 
-// // var reallyLongVariableName = 'thing';
-// // console.log();
+//=====================================================================//
+//========================RELATIVE FILE PATHS==========================//
+//=====================================================================//
 
-// // function thingOne() {console.log('1')};
-// // function thingTwo() {console.log('2')};
-// // function thingThree() {console.log('3')};
+// Similar to using tab to complete variable names, letting VS code advise file paths will prevent many bugs.
 
-// //=================================================================================
+// TODO: Go to the browser and look at the image currently showing on the home page.
+// Let's change the src attribute from a http link to a local image file.
+// TODO: Open index.html and demo.js side by side using the split screen skill we learned at the beginning of this demo.
+// TODO: Delete the https://media.giphy.com/media/l2SpYDOZmp3H2cAAo/giphy.gif from between the "" (leave the "" there).
+// TODO: Start typing ./
+// VS Code will display path options to choose from.
+// TODO: Use your  up/down arrow keys to navigate to images and then press 'TAB'.
+// TODO: Choose one of the files ending in .gif using the up/down arrows and press TAB again.
+// TODO: Go look at the browser to see the image you selected (refresh may be required if the image did not change).
+// TODO: Practice selecting different image options.
 
-// // Let VS Code guide your relative file paths
-
-// // See index.html
+//=====================================================================//
+//==================================THE END!!==========================//
+//=====================================================================//
 

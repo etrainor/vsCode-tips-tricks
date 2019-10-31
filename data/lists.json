@@ -13,7 +13,7 @@
     "Find and Replace",
     "TODO: Lists",
     "Tab is your friend!",
-    "Auto Completing File Paths"],
+    "Auto Completing File Paths", "Selecting Specific Lines By Choosing Line Numbers"],
   "terminal": {
     "commands": [],
     "pretty": []
