@@ -1,17 +1,24 @@
-# Tips and Tricks
+# VS Code Tips and Tricks - Interactive Demo
 ---
-## By Erin Trainor, October 2019
-[Deployed Application](https://etrainor.github.io/vsCode-tips-tricks/)
+## By Erin Trainor, November 2019
 
 ## Description
-Coding is difficult enough without wasting time navigating through your file structure, or trying to figure out the css property that is breaking the appearance of your home page.
-
-Learn how to use chrome dev tools effectively to understand how the browser is interpreting your code, VS code tricks that will help prevent time-wasting bugs, and terminal shortcuts that let you bounce around your file system like a pro.
+Coding is difficult enough without wasting time searching for typos and bugs. This VS Code tips and tricks demo will hopefully help prevent time-wasting bugs and let you spend more time writing code.
 
 ## Purpose of This Application
-Act as a platform to demonstrate coding tips and tricks for Visual Studio Code, Terminal Navigation and Chrome Developer Tools.
+Act as a platform to demonstrate coding tips and tricks for Visual Studio Code.
+
+## Starting the Demo
+1. Clone this repository 
+    - **Terminal Command:** `git clone [repository link]`)
+2. CD into the cloned repository
+    - **Terminal Command:** `cd vsCode-interactive-demo`
+3. Open repository in VS Code
+    - **Terminal Command:** `code .`
+4. Run live-server
+    - **Terminal Command:** `live-server`
+5. Navigate to `js/app.js`
+6. Walk through the instructions step by step
 
 ### Links to Topic Specific Readme Documents
 - [Visual Studio Code Demo Readme](./docs/VS_CODE.md)
-- [Terminal Demo Readme](./docs/TERMINAL.md)
-<!-- - [Chrome Dev Tools Readme](./docs/VS_CODE.md) -->
